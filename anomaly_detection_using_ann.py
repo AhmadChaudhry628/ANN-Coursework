@@ -17,7 +17,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.metrics import accuracy_score, precision_score, f1_score
 
 # Load the dataset
-df = pd.read_csv('/content/ETH_day.csv')
+df = pd.read_csv('./dataset/ETH_day.csv')
 print(df.columns)
 # Rename the columns
 df = df.rename(columns={'Date': 'date', 'Open': 'open', 'High': 'high', 'Low': 'low', 'Close': 'close', 'Volume ETH': 'volume_eth', 'Volume USD': 'volume_usd'})
