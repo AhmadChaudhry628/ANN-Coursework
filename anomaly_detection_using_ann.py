@@ -14,7 +14,6 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.layers import Input, Dense, LSTM, Dropout,Reshape
 from tensorflow.keras.callbacks import EarlyStopping
-from sklearn.metrics import accuracy_score, precision_score, f1_score
 
 # Load the dataset
 df = pd.read_csv('./dataset/ETH_day.csv')
